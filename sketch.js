@@ -135,7 +135,7 @@ function detectCollision(lstones,lmango){
 function keyPressed(){
 	if(keyCode === 32){
 		Matter.Body.setPosition(stones.body, {x:235, y:420});
-		launcher.attach(stones.body);
+		launcher.Launch(stones.body);
 	}
 }
 
